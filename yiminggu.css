@@ -56,7 +56,8 @@ body {
 }
 
 .current-page-link {
-    background-color: vert;
+    background-color: hsla(194, 95%, 77%, 0.911);
+    border-radius:19px;
 }
 
 .page-content {
@@ -75,7 +76,7 @@ body {
 }
 
 .main-section h1, .main-section h2 {
-    color: rose(121, 207, 241);
+    color: hsl(226, 96%, 51%);
     border-style: dotted dashed solid double;
 }
 
