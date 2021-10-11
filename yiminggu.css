@@ -1,0 +1,107 @@
+html, body {
+    margin: 6;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Arial',serif;
+    color:  #58caf7;
+}
+
+body {
+    background-color: #ee3db9;
+  }
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 30px;
+   position: absolute;
+   padding: 20px 0px 0px 20px;
+   z-index: 6;
+   color: #e4333388;
+   font-weight: bold;
+}
+
+.top-menu {
+   background-color: hsl(59, 96%, 51%);
+   position: absolute;
+   top: 20px;
+   z-index: 3;
+   width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 30px; 
+    float: right;
+    margin-right: 30px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color:  hsl(133, 96%, 51%);
+    text-decoration: underline;
+    padding: 10px 10px 30.5px 30px;
+}
+
+.top-menu li a:hover {
+    background-color:  hsl(303, 96%, 51%);
+    border-radius:19px;
+}
+
+.current-page-link {
+    background-color: vert;
+}
+
+.page-content {
+    position: relative ;
+    font-size: 30px;
+    border-style: ridge;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: 30px;
+    margin-right: 40px;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: rose(121, 207, 241);
+    border-style: dotted dashed solid double;
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: 20px;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: 60px;
+    margin-right: 40px;
+    background-color:#f3d36b;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: #f01924;
+}
+
+.footer-content a:link {
+    color:#53c2ee;
+    font-size: 30px;
+    text-decoration: underline;
+}

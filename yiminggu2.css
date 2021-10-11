@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #f7ec58;
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 40px;
+    position: absolute;
+    padding: 3px 2px 0px 6px;
+    z-index: 3;
+    color: #77c6f3;
+    text-shadow: 2px 2px;
+    font-weight: bold;
+    border: style 15px red dashed;
+}
+
+.top-menu {
+    position: absolute;
+    top: 85px;
+    z-index: 2;
+    width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 60px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+	color: rgb(224, 77, 77);
+	text-decoration: none;
+	padding: 20px 20px 20.5px 20px;
+}
+
+.top-menu li a:hover {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: rgb(0, 38, 255);
+}
+
+.current-page-link {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: rgb(211, 33, 218);
+}
+
+.page-content {
+    font-size: 30px;
+    text-indent: 50px;
+	position: relative;
+	top: 145px;
+    max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(235, 50, 204, 0.247);
+    z-index: 3;
+    border-style: groove;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    font-size: 30px;
+    color: rgb(236, 42, 42);
+}    
+
+.container {
+    position: relative;
+  }
+  
+.topright {
+    position: absolute;
+    top: 80px;
+    right: 160px;
+    font-size: 180px;
+  }
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    margin-bottom: 45px
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;   
+    border-style: solid;
+    border-width: 5px 20px 20px 30px;
+    border-color: darkblue;
+}
+
+.footer-content {
+    font-size: 30px;
+    padding: 5px 5px 5px 20px;
+    color: rgb(238, 217, 30);
+}
+
+.footer-content a:link {
+    color: rgb(63, 154, 240);
+    font-size: 30px;
+    text-decoration: underline;
+}
